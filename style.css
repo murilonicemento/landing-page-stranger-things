@@ -29,11 +29,11 @@
     --header-background-color: #220f0f;
     --highlight-color: #ffffff;
     --featured-font-family: "Rubik Glitch", sans-serif;
-    --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
+    --character-bottom-image-src: url("img/characters/kids-on-the-bike.svg");
     --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-    --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
+    --character-top-image-src: url("img/characters/inverted-world-monster.svg");
     --character-top-image-color: #000;
-    --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
+    --background-lamp-image: url("img/backgrounds/lamps-inverted.png");
     --footer-background-color: #000;
 }
 .dark_theme button, .dark_theme h1, .dark_theme h2, .dark_theme h3{
