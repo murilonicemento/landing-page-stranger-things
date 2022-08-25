@@ -20,6 +20,7 @@
 </head>
 
 <body class="light_theme" aria-label="O site está atualizando o tema light" role="body">
+  <!--Início Header-->
   <header aria-label="Cabeçalho da página">
     <audio id="music" autoplay>
       <source src="musics/stranger_things_theme.mp3" />
@@ -34,9 +35,12 @@
     </div>
     <div id="top_characters" class="world_characters"></div>
   </header>
+  <!--Fim Header-->
 
+  <!--Início Main-->
   <main>
     <div id="bottom_characters" class="world_characters"></div>
+    <!--Início Section 1-->
     <section id="section_inverted_world" class="container">
       <div class="section_texts">
         <h2>O Mundo Invertido</h2>
@@ -46,6 +50,9 @@
       </div>
       <img src="img/content/inverted-world.png" alt="Imagem ilustrativa do mundo invertido" class="invert_element">
     </section>
+    <!--Fim Section 1-->
+
+    <!--Início Section 2-->
     <section id="section_stranger_things_trailer" class="container">
       <div class="video_frame" aria-hidden="true">
         <iframe width="460" height="215" src="https://www.youtube.com/embed/yTX0HxTq9wo" title="YouTube video player"
@@ -60,6 +67,9 @@
           quarta temporada.</p>
       </div>
     </section>
+    <!--Fim Section 2-->
+
+    <!--Início Section 3-->
     <section id="section_stranger_things_gallery">
       <div class="container section_text">
         <h2>A segunda série mais assistida da Netflix</h2>
@@ -76,6 +86,9 @@
         </ul>
       </div>
     </section>
+    <!--Fim Section 3-->
+
+    <!--Início Section 4-->
     <section id="section_form" class="container">
       <h2>O Clube Dungeons & Dragons</h2>
       <p>Para deter Vecna, os heróis de Stranger Things também precisam de você. O Clube de D&D mais famoso de
@@ -84,13 +97,13 @@
       <div class="form_content">
         <h3>Entre para o clube de D&D e tenha experiências de <span>outro mundo</span></h3>
         <div class="form_container">
-          <form action="">
+          <form>
             <label for="txtName">Nome Completo</label>
             <input type="text" name="name" id="txtName">
             <label for="txtEmail">E-mail</label>
-            <input type="text" name="name" id="txtEmail">
+            <input type="email" name="name" id="txtEmail">
             <label for="txtLevel">Level</label>
-            <input type="text" name="name" id="txtLevel">
+            <input type="number" name="name" id="txtLevel">
             <label for="txtCharacter">Personagem</label>
             <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
             <button type="button" id="btnSubscribe">Me inscrever</button>
@@ -98,15 +111,18 @@
         </div>
       </div>
     </section>
+    <!--Fim Section 4-->
   </main>
-
+  <!--Fim Main-->
+  <!--Início Footer-->
   <footer>
     <p>Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e
       JavaScript aprendidos na DIO.</p>
     <img src="img/footer/logo.svg" alt="Logotipo DIO">
   </footer>
+  <!--Fim Footer-->
+
   <!--Script-->
-  <script type="module" src="js/main.js"></script>
   <script>
     window.addEventListener("click", function(){
       const audio = document.getElementById("audio");
@@ -124,7 +140,7 @@
       audio.volume = 0.2;
     }
   </script>
-
+  <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
