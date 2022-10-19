@@ -13,11 +13,11 @@
     --header-background-color: #e3e3e3;
     --highlight-color: #000000;
     --featured-font-family: "Archivo", sans-serif;
-    --character-top-image-src: url("img/characters/kids-on-the-bike.svg");
+    --character-top-image-src: url("/assets/img/characters/kids-on-the-bike.svg");
     --character-top-image-color: #ffffff;
-    --character-bottom-image-src: url("img/characters/inverted-world-monster.svg");
+    --character-bottom-image-src: url("/assets/img/characters/inverted-world-monster.svg");
     --character-bottom-image-color: #e5e5e5;
-    --background-lamp-image: url("img/backgrounds/lamps.png");
+    --background-lamp-image: url("/assets/img/backgrounds/lamps.png");
     --footer-background-color: #b5bbbf;
 }
 
@@ -29,11 +29,11 @@
     --header-background-color: #220f0f;
     --highlight-color: #ffffff;
     --featured-font-family: "Rubik Glitch", sans-serif;
-    --character-bottom-image-src: url("img/characters/kids-on-the-bike.svg");
+    --character-bottom-image-src: url("/assets/img/characters/kids-on-the-bike.svg");
     --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-    --character-top-image-src: url("img/characters/inverted-world-monster.svg");
+    --character-top-image-src: url("/assets/img/characters/inverted-world-monster.svg");
     --character-top-image-color: #000;
-    --background-lamp-image: url("img/backgrounds/lamps-inverted.png");
+    --background-lamp-image: url("/assets/img/backgrounds/lamps.png");
     --footer-background-color: #000;
 }
 .dark_theme button, .dark_theme h1, .dark_theme h2, .dark_theme h3{
@@ -108,7 +108,7 @@ header::before {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url(img/banner/florest.webp);
+    background-image: url("/assets/img/banner/florest.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 90%;
@@ -179,7 +179,7 @@ main::before{
     width: 100%;
     height: 100%;
     position: absolute;
-    background: var(--page-background) no-repeat, url("img/backgrounds/florest.png") no-repeat;
+    background: var(--page-background) no-repeat, url("/assets/img/backgrounds/florest.png") no-repeat;
     background-size: cover;
     z-index: -1;
 }
@@ -348,7 +348,7 @@ footer::before, footer::after{
     content: "";
     width: 300px;
     height: 200px;
-    background: url("img/footer/tape.svg") no-repeat;
+    background: url("/assets/img/footer/tape.svg") no-repeat;
     background-size: contain;
     position: absolute;
     bottom: -30px;

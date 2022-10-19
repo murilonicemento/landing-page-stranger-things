@@ -19,8 +19,8 @@ https://landpg-strthgs.netlify.app/
 
 ## Light Theme
 #
-<img src="img/screenshot_light_theme.png">
+<img src=".github/screenshot_light_theme.png">
 
 ## Dark Theme
 #
-<img src="img/screenshot_dark_theme.png">
+<img src=".github/screenshot_dark_theme.png">
